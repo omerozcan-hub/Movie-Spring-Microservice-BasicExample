@@ -44,7 +44,7 @@ mvn spring-boot:run
 ## movie_client
 Consumes the `movie_server` API and displays the movie information on a web page.
 
-####Endpoint
+#### Endpoint
 - `GET /`: Fetches movies from `movie_server` and displays them.
 
 #### Run
@@ -53,12 +53,12 @@ cd movie_client
 mvn spring-boot:run
 ```
 
-###Example Usage
+### Example Usage
 " - Start movie_server.
 2 - Start movie_client.
 3 - Open http://localhost:8080/ to view the movies.
 
-###Building the Project
+### Building the Project
 ```sh
 mvn clean install
 ```
