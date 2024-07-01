@@ -34,3 +34,35 @@ The `movie_server` microservice provides a REST API to get a list of movies.
     }
 ]
 ```
+#### Run
+
+```sh
+cd movie_server
+mvn spring-boot:run
+```
+
+## movie_client
+Consumes the `movie_server` API and displays the movie information on a web page.
+
+####Endpoint
+- `GET /`: Fetches movies from `movie_server` and displays them.
+
+#### Run
+```sh
+cd movie_client
+mvn spring-boot:run
+```
+
+###Example Usage
+" - Start movie_server.
+2 - Start movie_client.
+3 - Open http://localhost:8080/ to view the movies.
+
+###Building the Project
+```sh
+mvn clean install
+```
+
+####License
+This project is licensed under the MIT License.
+
